@@ -49,7 +49,9 @@ subnet 192.168.10.0 netmask 255.255.255.0 {
 
 - I would suggest a reboot after all of the installation process
 - To start up the hosted network and the websocket, run `sudo ./piquadserver.sh`
-- To schedule everything to start up automatically on boot, edit `/etc/rc.local` with something like... `/home/path/to/piquadserver.sh`. 
+- To schedule everything to start up automatically on boot, edit `/etc/rc.local` with something like `/home/path/to/piquadserver.sh` but if that doesn't work as it didn't for me, use a relative path like I did with something like: `cd home/pi/PiQuadcopter/
+./piquadserver.sh &
+exit 0`
   - rc.local is called automatically on startup. 
   - Check troubleshooting for more help
 
