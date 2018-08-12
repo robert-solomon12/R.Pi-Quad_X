@@ -9,7 +9,7 @@ I would like to thank user rgw3d that inspired this Project.
 - The first thing to do is to create a hosted Wi-Fi network. To accomplish this we use [`isc-dhcp-server`](https://help.ubuntu.com/community/isc-dhcp-server) and [`hostapd`](https://w1.fi/hostapd/)
   - `isc-dhcp-server` serves as the DHCP server for our Wi-Fi network
   - `hostapd` serves as access point management, essentially making a Wi-Fi card into a router
-- Now for communication with our MultiWii device. I have a [C library](https://github.com/rgw3d/cMultiWii) with the [MSP protocol](http://www.multiwii.com/wiki/index.php?title=Multiwii_Serial_Protocol), and I use a backbone library [`libserialport`](https://sigrok.org/wiki/Libserialport)
+- Now for communication with our MultiWii device. There is the [C library](https://github.com/rgw3d/cMultiWii) with the [MSP protocol](http://www.multiwii.com/wiki/index.php?title=Multiwii_Serial_Protocol), and I use a backbone library [`libserialport`](https://sigrok.org/wiki/Libserialport)
   - `libserialport` is downloaded from their git repository, and installed
   - `cMultiWii`, my MSP implementation is downloaded from the git repository. This will be compiled later
 - Websocket communication is needed next. I use the [`websocketpp`](https://github.com/zaphoyd/websocketpp) library, implemented in this repo.
