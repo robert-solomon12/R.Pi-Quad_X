@@ -45,7 +45,7 @@ subnet 192.168.10.0 netmask 255.255.255.0 {
     range 192.168.10.1 192.168.10.30;
 }
 ```
-- You need to ensure `wlan0` and `hostapd.conf` are correct. check the troubleshooting seciton for more information
+- You need to ensure `wlan0` and `hostapd.conf` are correct. Check the troubleshooting section for more information
 
 ## Running the program and automatic startup
 
@@ -69,7 +69,7 @@ exit 0`
   - Find the process ID number for `hostapd`
   - `sudo kill <process ID>` will kill hostapd and hopefully resolve the issue
 - If there are any problems with `isc-dhcp-server`, try running `sudo journalctl -u isc-dhcp-server.service` to look for errors
-- If you need to recompile at any time, just run `make` at the top level of this repository
+- If you need to recompile at any time, just run `make` at the top level of this repository.
 
 <br> Should you have any problems, don't hesitate to contact me on my email at:</br> [20079462@mail.wit.ie](mailto:20079462@mail.wit.ie)
 <br>or if you find a bug </br>[open up an issue here](https://github.com/EazyRob97/PiQuadcopter-master/issues)
