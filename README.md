@@ -71,5 +71,12 @@ exit 0`
 - If there are any problems with `isc-dhcp-server`, try running `sudo journalctl -u isc-dhcp-server.service` to look for errors
 - If you need to recompile at any time, just run `make` at the top level of this repository.
 
+
+## APK For Android Smartphone
+
+- You can find the following Application for your Android Smartphone [here](https://github.com/robert-solomon12/QuadcopterController).
+
+
+
 <br> Should you have any problems, don't hesitate to contact me on my email at:</br> [20079462@mail.wit.ie](mailto:20079462@mail.wit.ie)
 <br>or if you find a bug </br>[open up an issue here](https://github.com/EazyRob97/PiQuadcopter-master/issues)
