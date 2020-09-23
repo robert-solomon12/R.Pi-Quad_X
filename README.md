@@ -1,4 +1,4 @@
-# PiQuadcopter Project
+# R.Pi Quad_X (Quadcopter Project)
 Websocket and MultiWii serial code to control a quadcopter, running on a Raspberry Pi.
 
 <img src="IMG/piQuadcopter.jpeg" width="700">
