@@ -3,7 +3,7 @@ Websocket and MultiWii serial code to control a quadcopter, running on a Raspber
 
 <img src="IMG/piQuadcopter.jpeg" width="700">
 
-PiQuadcopter based Project, running on the Raspberry Pi. Note: that I've used the Raspberry Pi 3 but it was originally tested on a Raspberry Pi 2 according to Richard Wendel.
+PiQuadcopter based Project, running on the Raspberry Pi. Note that I've used the Raspberry Pi 3 but it was originally tested on a Raspberry Pi 2 according to Richard Wendel.
 
 ## Overview of all the tech
 
