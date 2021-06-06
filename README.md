@@ -77,5 +77,5 @@ exit 0`
 
 
 
-<br> Should you have any problems, don't hesitate to contact me on my email at:</br> [20079462@mail.wit.ie](mailto:20079462@mail.wit.ie)
+<br> Should you have any problems, don't hesitate to contact me on my email at:</br> [robertsolomon12@outlook.com](mailto:robertsolomon12@outlook.com)
 <br>or if you find a bug </br>[open up an issue here](https://github.com/EazyRob97/PiQuadcopter-master/issues)
